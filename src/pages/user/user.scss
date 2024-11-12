@@ -1,0 +1,30 @@
+.credit {
+  background: url('../../assets/user/flower.svg'),
+    linear-gradient(90deg, rgba(255, 179, 139, 0.4) 0%, rgba(255, 227, 207, 0.4) 100%), #ffffff;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.08);
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.credit-tip {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.devices {
+  background: var(--nutui-white-7);
+  border: 1px solid;
+  backdrop-filter: blur(8px);
+  box-shadow: 2px 2px 12px 0px #00000014;
+  border-image-source: radial-gradient(81.13% 164.58% at 37.1% 0%, #ffffff 47.56%, rgba(255, 255, 255, 0) 100%);
+}
+
+.divider-left {
+  width: 45.5px;
+  height: 1px;
+  background: linear-gradient(270deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+}
+.divider-right {
+  width: 45.5px;
+  height: 1px;
+  background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+}
